@@ -1,0 +1,20 @@
+﻿l_english:
+ building_roads:0 "Roads"
+ building_roads_lens_option:0 "Roads"
+ 
+ pmg_base_building_roads:0 "Development Level"
+ pm_sparse_roads:0 "Sparse Roads"
+ pm_extensive_roads:0 "Extensive Roads"
+ pm_high_capacity_roads:0 "High Capacity Roads"
+ pm_highway_networks:0 "Highway Networks"
+ 
+ pmg_road_material:0 "Material"
+ pm_unpaved_trails:0 "Unpaved Trails"
+ pm_dirt_roads:0 "Dirt Roads"
+ pm_gravel_roads:0 "Gravel Roads"
+ pm_stone_roads:0 "Stone Roads"
+ pm_asphalt_roads:0 "Asphalt Roads"
+ 
+ pmg_ownership_capital_building_roads:0 "Ownership"
+ pm_privately_owned_building_roads:0 "Privately Owned"
+ pm_government_run_building_roads:0 "Government Run"

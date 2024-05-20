@@ -1,0 +1,32 @@
+﻿pmg_base_building_roads = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_sparse_roads
+		pm_extensive_roads
+		pm_high_capacity_roads
+		pm_highway_networks
+	}
+}
+
+pmg_road_material = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_unpaved_trails
+		pm_dirt_roads
+		pm_gravel_roads
+		pm_stone_roads
+		pm_asphalt_roads
+	}
+}
+
+pmg_ownership_capital_building_roads = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_building_roads
+		pm_government_run_building_roads
+	}
+}
