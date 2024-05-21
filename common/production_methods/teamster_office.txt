@@ -48,7 +48,7 @@ pm_teamster_office_wagon = {
 
 pm_teamster_office_truck = {
 	texture = "gfx/interface/icons/production_method_icons/motorised_logistics.dds"
-	pollution_generation = 5
+	state_pollution_generation_add = 5
 	
 	unlocking_technologies = {
 		combustion_engine

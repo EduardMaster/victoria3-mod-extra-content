@@ -1,8 +1,11 @@
 pm_charcoal_kiln_building_charcoal_burner = {
 	texture = "gfx/interface/icons/production_method_icons/charcoal_kiln.dds"
 	
-	pollution_generation = 50
-
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 50
+		}
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -21,8 +24,11 @@ pm_charcoal_kiln_building_charcoal_burner = {
 pm_combustion_chamber_building_charcoal_burner = {
 	texture = "gfx/interface/icons/production_method_icons/combustion_chamber.dds"
 	
-	pollution_generation = 25
-
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 25
+		}
+	}
 
 	unlocking_technologies = {
 		mechanical_tools
@@ -47,8 +53,11 @@ pm_combustion_chamber_building_charcoal_burner = {
 pm_machine_coal_building_charcoal_burner = {
 	texture = "gfx/interface/icons/production_method_icons/machine_coal.dds"
 
-	pollution_generation = 15
-
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
 	unlocking_technologies = {
 		conveyors
 	}
@@ -77,7 +86,11 @@ pm_refining_disabled_building_charcoal_burner = {
 pm_dust_separation_building_charcoal_burner = {
 	texture = "gfx/interface/icons/production_method_icons/dust_separation.dds"
 
-	pollution_generation = 15
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
 
 	unlocking_technologies = {
 		distillation
@@ -106,7 +119,11 @@ pm_dust_separation_building_charcoal_burner = {
 pm_chemical_refining_building_charcoal_burner = {
 	texture = "gfx/interface/icons/production_method_icons/chemical_refining.dds"
 
-	pollution_generation = 15
+	sstate_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
 
 	unlocking_technologies = {
 		fractional_distillation
@@ -136,7 +153,11 @@ pm_chemical_refining_building_charcoal_burner = {
 pm_environmental_refining_building_charcoal_burner = {
 	texture = "gfx/interface/icons/production_method_icons/environmental_refining.dds"
 
-	pollution_generation = 15
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
 
 	unlocking_technologies = {
 		pneumatic_tools
@@ -171,7 +192,11 @@ pm_automation_hand_assembly_building_charcoal_burner = {
 pm_assembly_lines_building_charcoal_burner = {
 	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
 	
-	pollution_generation = 10
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
 	
 	unlocking_technologies = {
 		conveyors
