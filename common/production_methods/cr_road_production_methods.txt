@@ -4,7 +4,7 @@
 
 pm_sparse_roads = {
 	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
-	state_pollution_generation_add = 0
+	
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -18,13 +18,14 @@ pm_sparse_roads = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 2
+			state_pollution_generation_add = 0
 		}
 	}
 }
 
 pm_extensive_roads = {
 	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
-	state_pollution_generation_add = 1
+	
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -38,13 +39,14 @@ pm_extensive_roads = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 4
+			state_pollution_generation_add = 1
 		}
 	}
 }
 
 pm_high_capacity_roads = {
 	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
-	state_pollution_generation_add = 2
+	
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -58,13 +60,14 @@ pm_high_capacity_roads = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 8
+			state_pollution_generation_add = 2
 		}
 	}
 }
 
 pm_highway_networks = {
 	texture = "gfx/interface/icons/production_method_icons/unused/base4.dds"
-	state_pollution_generation_add = 3
+	
 	
 	unlocking_technologies = {
 		compression_ignition
@@ -82,6 +85,7 @@ pm_highway_networks = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 16
+			state_pollution_generation_add = 3
 		}
 	}
 }
@@ -96,7 +100,7 @@ pm_unpaved_trails = {
 
 pm_dirt_roads = {
 	texture = "gfx/interface/icons/production_method_icons/unused/refining2.dds"
-	state_pollution_generation_add = 1
+	
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -111,13 +115,14 @@ pm_dirt_roads = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 2
+			state_pollution_generation_add = 1
 		}
 	}				
 }
 
 pm_gravel_roads = {
 	texture = "gfx/interface/icons/production_method_icons/unused/refining3.dds"
-	state_pollution_generation_add = 2
+	
 
 	unlocking_technologies = {
 		shaft_mining
@@ -137,13 +142,14 @@ pm_gravel_roads = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 4
+			state_pollution_generation_add = 2
 		}
 	}				
 }
 
 pm_stone_roads = {
 	texture = "gfx/interface/icons/production_method_icons/unused/refining4.dds"
-	state_pollution_generation_add = 3
+	
 
 	unlocking_technologies = {
 		prospecting
@@ -164,13 +170,14 @@ pm_stone_roads = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 8
+			state_pollution_generation_add = 3
 		}
 	}				
 }
 
 pm_asphalt_roads = {
 	texture = "gfx/interface/icons/production_method_icons/unused/refining5.dds"
-	state_pollution_generation_add = 10
+	
 
 	unlocking_technologies = {
 		pumpjacks
@@ -192,6 +199,7 @@ pm_asphalt_roads = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 16
+			state_pollution_generation_add = 10
 		}
 	}				
 }

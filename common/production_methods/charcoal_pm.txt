@@ -119,7 +119,7 @@ pm_dust_separation_building_charcoal_burner = {
 pm_chemical_refining_building_charcoal_burner = {
 	texture = "gfx/interface/icons/production_method_icons/chemical_refining.dds"
 
-	sstate_modifiers = {
+	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 15
 		}
