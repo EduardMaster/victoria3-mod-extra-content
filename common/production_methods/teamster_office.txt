@@ -53,7 +53,7 @@ pm_teamster_office_truck = {
 	unlocking_technologies = {
 		combustion_engine
 	}
-	
+	 
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_tools_add = 5
@@ -226,7 +226,6 @@ pm_teamster_office_rickshaw = {
 			goods_input_wood_add = 1
 			goods_input_tools_add = 1
 			goods_input_fabric_add = 1
-			goods_input_fabrices_add = 1
 			goods_output_transportation_add = 25
 		}
 		level_scaled = {
@@ -264,7 +263,6 @@ pm_teamster_office_taxi = {
 		workforce_scaled = {
 			goods_input_tools_add = 1
 			goods_input_fabric_add = 1
-			goods_input_fabrices_add = 1
 			goods_input_automobiles_add = 1
 			goods_input_oil_add = 1
 			goods_output_transportation_add = 100

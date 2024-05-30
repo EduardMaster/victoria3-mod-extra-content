@@ -23,8 +23,8 @@ pmg_automation_building_charcoal_burner = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_automation_hand_assembly_building_charcoal_burner
-		pm_watertube_boiler_building_charcoal_burner
-		pm_rotary_valve_engine_building_charcoal_burner
+		# pm_watertube_boiler_building_charcoal_burner
+		# pm_rotary_valve_engine_building_charcoal_burner
 		pm_assembly_lines_building_charcoal_burner
 		
 	}
