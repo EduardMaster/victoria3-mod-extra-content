@@ -19,7 +19,7 @@ building_teamster_office = {
 	ai_value = 1000
 	
 	should_auto_expand = { 
-		occupancy >= 0.8
+		occupancy >= 0.9
 		OR = {
 			cash_reserves_ratio > 0.5
 			is_subsidized = yes
