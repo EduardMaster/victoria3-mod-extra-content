@@ -1,7 +1,0 @@
-construction_cost_canal = 2500
-construction_cost_monument = 1250
-construction_cost_very_high = 400
-construction_cost_high = 300
-construction_cost_medium = 200
-construction_cost_low = 100
-construction_cost_very_low = 50

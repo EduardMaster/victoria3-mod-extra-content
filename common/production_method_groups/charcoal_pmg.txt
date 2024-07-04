@@ -39,14 +39,3 @@ pmg_transportation_building_charcoal_burner = {
 
 	}
 }
-
-pmg_ownership_capital_building_charcoal_burner = {
-	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
-	production_methods = {
-		pm_merchant_guilds_building_charcoal_burner
-		pm_privately_owned_building_charcoal_burner
-		pm_publicly_traded_building_charcoal_burner
-		pm_government_run_building_charcoal_burner
-		pm_worker_cooperative_building_charcoal_burner
-	}
-}

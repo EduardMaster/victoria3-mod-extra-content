@@ -273,20 +273,3 @@ pm_teamster_office_taxi = {
 		}
 	}
 }
-pm_merchant_guilds_teamster_office = {
-	texture = "gfx/interface/icons/production_method_icons/merchant_guilds.dds"
-	
-	disallowing_laws = {
-		law_command_economy
-		law_council_republic
-	}
-	
-	building_modifiers = { 
-		level_scaled = {
-			building_employment_shopkeepers_add = 125
-		}
-		unscaled = {
-			building_shopkeepers_shares_add = 5
-		}
-	}
-}
