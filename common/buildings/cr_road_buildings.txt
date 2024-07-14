@@ -6,6 +6,7 @@ building_roads = {
 	ai_nationalization_desire = 0.5 # AI is reluctant to privatize railways since they are likely to need subsidies anyway
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 	unlocking_technologies = {
+		urbanization
 	}
 
 	production_method_groups = {

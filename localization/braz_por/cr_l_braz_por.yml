@@ -1,0 +1,16 @@
+﻿l_braz_por:
+ building_roads:0 "Estradas"
+ building_roads_lens_option:0 "Estradas"
+ 
+ pmg_base_building_roads:0 "Tamanho das Estradas"
+ pm_sparse_roads:0 "Estradas Pequenas"
+ pm_extensive_roads:0 "Estradas Medias"
+ pm_high_capacity_roads:0 "Estradas Longas"
+ pm_highway_networks:0 "Estradas Longas e Grandes"
+ 
+ pmg_road_material:0 "Material da Estrada"
+ pm_unpaved_trails:0 "Estrada sem Pavimentação"
+ pm_dirt_roads:0 "Estradas de Terra"
+ pm_gravel_roads:0 "Estradas de Cascalho"
+ pm_stone_roads:0 "Estradas de Pedinhas"
+ pm_asphalt_roads:0 "Estradas de Alfalto"

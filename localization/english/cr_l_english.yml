@@ -14,7 +14,3 @@
  pm_gravel_roads:0 "Gravel Roads"
  pm_stone_roads:0 "Stone Roads"
  pm_asphalt_roads:0 "Asphalt Roads"
- 
- pmg_ownership_capital_building_roads:0 "Ownership"
- pm_privately_owned_building_roads:0 "Privately Owned"
- pm_government_run_building_roads:0 "Government Run"
