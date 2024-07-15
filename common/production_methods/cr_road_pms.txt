@@ -50,7 +50,7 @@ pm_high_capacity_roads = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_services_add = 8
+			goods_output_transportation_add = 8
 		}
 		level_scaled = {
 			building_employment_laborers_add = 1200

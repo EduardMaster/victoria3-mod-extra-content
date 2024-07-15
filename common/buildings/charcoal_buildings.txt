@@ -2,6 +2,7 @@ building_charcoal_burner = {
 	building_group = bg_light_industry
 	texture = "gfx/interface/icons/building_icons/charcoal_burner.dds"
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	# mesh = "gfx/models/buildings/generic_manufactory_01_mesh"
 	unlocking_technologies = {
 		manufacturies
 	}
@@ -19,4 +20,4 @@ building_charcoal_burner = {
 	required_construction = construction_cost_high
 	ownership_type = self
 	ai_value = 500 # Coal is very important but mines should be more important
-}
+} 
